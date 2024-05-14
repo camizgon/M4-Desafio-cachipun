@@ -21,28 +21,28 @@ for (let i = 0; i <= limiteDejugadas; i++) {
         if (jugadaMaquina == 0) {
             resultado = "Empate";
         } else if (jugadaMaquina == 1) {
-            resultado = "¡Perdiste! La máquina eligió Papel.";
+            resultado = "¡Perdiste! El Emperador Lord Darth Vader eligió Papel.";
             contadorMaquina++;
         } else {
-            resultado = "¡Ganaste! La máquina eligió Tijera.";
+            resultado = "¡Ganaste! El Emperador Lord Darth Vader eligió Tijera.";
             contadorUsuario++;
         }
     } else if (jugadaUsuario == "papel") {
         if (jugadaMaquina == 0) {
-            resultado = "¡Ganaste! La máquina eligió Piedra.";
+            resultado = "¡Ganaste! El Emperador Lord Darth Vader eligió Piedra.";
             contadorUsuario++;
         } else if (jugadaMaquina == 1) {
             resultado = "Empate";
         } else {
-            resultado = "¡Perdiste! La máquina eligió Tijera.";
+            resultado = "¡Perdiste! El Emperador Lord Darth Vader eligió Tijera.";
             contadorMaquina++;
         }
     } else if (jugadaUsuario == "tijera") {
         if (jugadaMaquina == 0) {
-            resultado = "¡Perdiste! La máquina eligió Piedra.";
+            resultado = "¡Perdiste! El Emperador Lord Darth Vader eligió Piedra.";
             contadorMaquina++;
         } else if (jugadaMaquina == 1) {
-            resultado = "¡Ganaste! La máquina eligió Papel.";
+            resultado = "¡Ganaste! El Emperador Lord Darth Vader eligió Papel.";
             contadorUsuario++;
         } else {
             resultado = "Empate";
@@ -57,9 +57,9 @@ for (let i = 0; i <= limiteDejugadas; i++) {
 
 // Mostramos el resultado final
 if (contadorUsuario > contadorMaquina) {
-    alert("¡Felicidades! ¡le has ganado a la maquina!");
+    alert("¡Felicidades! ¡le has ganado al Emperador Lord Darth Vader!");
 } else if (contadorUsuario < contadorMaquina) {
-    alert("Lo Sentimos¡La máquina ha ganado!");
+    alert("Lo Sentimos¡ El Emperador Lord Darth Vader ha ganado!");
 } else {
     alert(" Uppps ¡Ha habido un empate!");
 }

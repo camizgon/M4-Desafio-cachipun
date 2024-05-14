@@ -1,6 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap");
 
-body{
-    
-    background-color: black;
+body {
+  font-family: "Briem Hand", cursive;
+  background-color: black;
+  color: #515151;
+}
+
+h1 {
+  width: 60%;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-left: 25px;
+}
+
+h2 {
+  margin-left: 100px;
+}
+
+h3 {
+  margin-left: 300px;
+  margin-top: 50px;
+  text-decoration: underline;
+  color: #515151;
+}
+
+p {
+  width: 40%;
+  margin-left: 100px;
+}
+
+ul{
+    width: 40%;
+    margin-left: 100px;
+}
+
+img {
+  object-fit: cover;
+  position: absolute;
+  left: 800px;
+  bottom: 5px;
 }
