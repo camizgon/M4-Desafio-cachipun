@@ -1,6 +1,6 @@
 
 // EL usuario determinara cuántas veces desea jugar
-let limiteDejugadas = parseInt(prompt(" Ingrese las cantidad de veces desea jugar contra la maquina"));
+let limiteDejugadas = parseInt(prompt(" Ingrese las cantidad de veces desea jugar contra Lord Darth Vader"));
 
 // Contadores del juego
 let contadorUsuario = 0;
@@ -61,5 +61,5 @@ if (contadorUsuario > contadorMaquina) {
 } else if (contadorUsuario < contadorMaquina) {
     alert("Lo Sentimos¡ El Emperador Lord Darth Vader ha ganado!");
 } else {
-    alert(" Uppps ¡Ha habido un empate!");
+    alert(" Uppps ¡Ha habido un empate! El Emperador no podrá conquistar la galaxía");
 }
