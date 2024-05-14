@@ -55,11 +55,11 @@ for (let i = 0; i <= limiteDejugadas; i++) {
     alert(resultado);
 }
 
-// Mostramos el resultado final
+// Resultado final y conteo
 if (contadorUsuario > contadorMaquina) {
-    alert("¡Felicidades! ¡le has ganado al Emperador Lord Darth Vader!");
+    alert("¡Felicidades! ¡le has ganado al Emperador Lord Darth Vader! o podrá conquistar la galaxia");
 } else if (contadorUsuario < contadorMaquina) {
-    alert("Lo Sentimos¡ El Emperador Lord Darth Vader ha ganado!");
+    alert("Lo Sentimos¡ El Emperador Lord Darth Vader ha ganado! Conquistará la galaxia");
 } else {
-    alert(" Uppps ¡Ha habido un empate! El Emperador no podrá conquistar la galaxía");
+    alert(" Uppps ¡Ha habido un empate! El Emperador no podrá conquistar la galaxia");
 }
